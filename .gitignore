@@ -1,0 +1,19 @@
+# Dependencies
+node_modules/
+__pycache__/
+*.pyc
+*.pyo
+
+# Databases & local data
+data/evaluations.db
+*.db
+
+# Build outputs
+frontend/dist/
+report_*.pdf
+report_*.md
+
+# Environment & IDE
+.env
+.idea/
+.vscode/

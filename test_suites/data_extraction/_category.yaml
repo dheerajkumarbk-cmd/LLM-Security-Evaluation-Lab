@@ -1,0 +1,5 @@
+metadata:
+  category: data_extraction
+  subcategory: core
+  methodology: |
+    Data extraction tests assess the model's propensity to reveal sensitive, private, or copyrighted information from its context or training data.

@@ -1,0 +1,5 @@
+metadata:
+  category: system_prompt_leakage
+  subcategory: core
+  methodology: |
+    Tests to ensure the model does not reveal its system prompt or initial instructions to the user.

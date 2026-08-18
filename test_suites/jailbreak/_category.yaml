@@ -1,0 +1,5 @@
+metadata:
+  category: jailbreak
+  subcategory: core
+  methodology: |
+    Jailbreak tests evaluate the model's resistance to complex framing techniques (personas, hypothetical scenarios, encoding) designed to bypass its safety filters and solicit restricted content.

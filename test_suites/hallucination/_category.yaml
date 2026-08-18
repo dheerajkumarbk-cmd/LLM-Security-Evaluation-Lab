@@ -1,0 +1,5 @@
+metadata:
+  category: hallucination
+  subcategory: core
+  methodology: |
+    Hallucination tests verify if the model generates false or unsubstantiated information, either by failing factual checks or by fabricating entire entities when prompted.
