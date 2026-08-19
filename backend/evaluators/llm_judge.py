@@ -15,7 +15,7 @@ class LLMJudgeEvaluator:
 
     async def evaluate(self, test_case: TestCase, completion: CompletionResult, rubric: str) -> dict:
         """Evaluate a completion against a rubric using LLM-as-judge."""
-        if not self.adapter or not self.adapter.client:
+        if not self.adapter or not self.adapter.api_key:
             # Fallback evaluation if no LLM judge API key is present
             return self._heuristic_fallback_judge(test_case, completion)
 
